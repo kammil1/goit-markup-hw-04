@@ -373,15 +373,17 @@ border: 1px solid var(--LIGHT-SLATE, #8E8F99);
 
 .footer-flex{
     display: flex;
+    align-items: baseline;
 }
 
 .footer-social-media{
-margin-left: 120px;
+margin-right: 120px;
 }
 
 .footer-social-media-text{
     color: var(--color-white);
     margin-bottom: 16px;
+    font-weight: 500;
 
 }
 
