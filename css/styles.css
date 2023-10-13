@@ -305,9 +305,8 @@ padding: 120px 0;
 }
 
 .social-svg{
-    width: 16px;
-    height: 16px;
     color: var(--color-cloud);
+    fill: var(--color-cloud);
 
 }
 
@@ -321,6 +320,10 @@ padding: 120px 0;
     background-color: var(--color-iris);
 }
 
+.social-link:hover,
+.social-link:focus{
+    background-color: var(--color-ocean);
+}
 
 
 .section-four{
