@@ -369,7 +369,9 @@ border: 1px solid var(--LIGHT-SLATE, #8E8F99);
     color: var(--color-ocean);
 }
 
-
+.social-group-footer{
+gap: 16px;
+}
 
 
 .footer-flex{
