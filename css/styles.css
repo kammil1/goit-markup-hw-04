@@ -332,7 +332,7 @@ padding: 120px 0;
 }
 
 .customers-group{
- display: inline-flex; 
+ display: flex; 
  align-items: flex-start;
  gap: 24px;
  list-style-type: none;
@@ -346,16 +346,9 @@ padding: 120px 0;
 }
 
 .customer-icon{
-    width: 104px;
-    height: 56px;
-    
+   
 }
 
-
-.customer-link:hover,
-.customer-link:focus{
-    border: 1px solid var(--color-ocean, #404BBF);
-}
 
 .customer-link{
     display: flex;
@@ -366,6 +359,11 @@ height: 88px;
 border-radius: 4px;
     border: 1px solid var(--LIGHT-SLATE, #8E8F99); 
     color: var(--color-light-slate);
+}
+
+.customer-link:hover,
+.customer-link:focus{
+    color: var(--color-ocean);
 }
 
 
