@@ -111,6 +111,8 @@ padding: 24px 0;
     var(--GREY, rgba(46, 47, 66, 0.70))),
     url(/images/hero-image.jpg);
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     margin: 0 auto;
     max-width: 1440px;
 
