@@ -366,7 +366,6 @@ background-color: var(--color-green);
 }
 
 
-
 .customers-list{
     display: flex;
     width: calc(100% - 120px)/6;
