@@ -63,15 +63,10 @@ color: var(--color-navy-blue);
 }
 
 .list-card{
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 48px) / 3);
 }
 
-.list-card:hover{
-    border: 1px solid var(--CLOUD, #F4F4FD);
-        background: var(--WHITE, #FFF);
-        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 
-}
 
 .list-nav{
 color: var(--color-navy-blue);
@@ -514,6 +509,14 @@ gap: 40px;
     display: block;
     max-width: 100%;
     height: auto;
+}
+
+.image-class-link{
+    display: block;
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.image-class-link:hover{
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .porfolio-list{
